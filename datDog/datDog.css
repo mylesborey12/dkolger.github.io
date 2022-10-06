@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(56, 115, 119);
+  }
+#mainContent{
+  border-style: groove;
+  background-color: rgb(203, 56, 56);
+}
