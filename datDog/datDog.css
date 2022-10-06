@@ -1,7 +1,37 @@
+h1 {
+  text-align: center;
+}
 body {
-    background-color: rgb(56, 115, 119);
+    background-image: ;
   }
 #mainContent{
-  border-style: groove;
-  background-color: rgb(203, 56, 56);
+  border-style: solid;
+  background-color: rgb(23, 220, 255);
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+a:link {
+  color: rgb(255, 255, 255);
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: #ffffff, 0, 128;
+}
+a:active {
+  color: rgb(255, 255, 255);
+}
+img{
+  display: block;
+  margin: auto
+}
+table{
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+nav{
+  backgroun
 }
