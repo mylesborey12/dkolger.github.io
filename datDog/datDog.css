@@ -27,10 +27,11 @@ img{
   display: block;
   margin: auto
 }
-table{
+table, th, tr{
   width: 70%;
   margin: auto;
   padding: 10px;
+  border: 2px solid black;
 }
 nav{
   border-style: solid;
@@ -38,5 +39,5 @@ nav{
   width: 30%;
   margin: auto;
   padding: 20px;
-
+  text-align: center;
 }
