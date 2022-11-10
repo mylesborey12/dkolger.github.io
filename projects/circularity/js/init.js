@@ -36,12 +36,10 @@ var init = function (window) {
 
         // TODO 3 / 7 : Call the drawCircle() function 
 
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
-
+        for (var i = 0; i < 100; i++){
+            drawCircle();
+        }
+        
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -81,7 +79,7 @@ var init = function (window) {
         game.checkCirclePosition = function(circle) {
             
             var rightEdge = circle.x + circle.radius;
-            var leftEdge = circle.x - circle.raduis;
+            var leftEdge = circle.x - circle.radius;
             var topEdge = circle.y - circle.radius;
             var bottomEdge = circle.y + circle.radius;
 
